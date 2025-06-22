@@ -1,0 +1,22 @@
+{
+  "name": "my-fastify-app",
+  "version": "1.0.0",
+  "description": "A simple Fastify application",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [
+    "fastify",
+    "nodejs",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.x.x",
+    "fastify-cli": "^5.x.x"
+  }
+}
